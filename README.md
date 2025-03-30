@@ -4,14 +4,36 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 First, run the development server:
 
+## ⚙️ Como Rodar o Projeto
+
+1. Clone este repositório:
+
+```bash
+https://github.com/MarcelloFreitasMoraes/mobi-auto.git
+```
+
+2. Acesse o diretório do projeto:
+
+```bash
+cd mobi-auto
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Rode o projeto localmente: 
+
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+
+5.  Abra o navegador e acesse:  
+
+```bash
+http://localhost:3000/
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
