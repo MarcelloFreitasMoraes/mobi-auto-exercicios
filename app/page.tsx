@@ -3,6 +3,7 @@ import CardFunction from "./components/card-function";
 import Link from "next/link";
 import ExerciseTwo from "./components/exercise-two";
 import { Button } from "@/components/ui/button";
+import { maskify } from "./contants/maskify";
 
 const dataExerciseOne = [
   {
@@ -17,12 +18,6 @@ const dataExerciseOne = [
     name: 'Mobi Auto',
   }
 ];
-
-export const maskify = (string: string) => {
-  const cleanString = string.replace(/[^A-Za-z0-9]/g, '');
-  if (cleanString.length <= 4) return cleanString;
-  return '#'.repeat(cleanString.length - 4) + cleanString.slice(-4);
-}
 
 export default function Home() {
   return (

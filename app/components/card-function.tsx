@@ -3,8 +3,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
-import { maskify } from '../page';
-
+import { maskify } from '../contants/maskify';
 
 const CardFunction: React.FC = () => {
   const {
